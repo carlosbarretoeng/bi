@@ -1,0 +1,1 @@
+docker run -it --rm --name nodejs -p "9000:9000" -v "$PWD":/usr/src/app -w /usr/src/app node:lts npx quasar dev
